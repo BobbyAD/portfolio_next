@@ -1,6 +1,6 @@
-import "../styles/globals.css";
-// necessary for antd styles to work properly. This is a little goofy.
+import "../styles/globals.less";
 import "../styles/theme.less";
+import "../styles/fonts.less";
 
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />;
