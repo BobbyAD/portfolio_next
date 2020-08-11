@@ -1,12 +1,12 @@
-import React from 'react'
-import { Navigation } from "./navigation"
-import { Content } from './content'
+import React from "react";
+import { Content } from "./content";
+import { Social } from "./social";
 
 export const Lower = () => {
     return (
         <div>
-            <Navigation />
+            <Social />
             <Content />
         </div>
-    )
-}
+    );
+};

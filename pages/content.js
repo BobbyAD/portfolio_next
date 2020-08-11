@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import { Projects } from "./projects/projects";
 
 export const Content = () => {
     return (
         <div>
-            12341234
+            <Projects />
         </div>
-    )
-}
+    );
+};

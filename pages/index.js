@@ -6,7 +6,6 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <header className={styles.header}>
-                <div />
                 <h1 className={styles.logo}>BobbyAD.dev</h1>
                 <nav className={styles.navigation}>
                     <ul>
@@ -27,6 +26,8 @@ export default function Home() {
                 </section>
             </div>
             <Lower />
+            <div className={styles.test} />
+            <div className={styles.test} />
         </div>
     );
 }
