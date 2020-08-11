@@ -11,29 +11,51 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
     background-image: url("/images/light.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 60% -12vw;
-    box-shadow: inset 0 0 70px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.5);
     min-width: 100%;
-    min-height: 50vh;
-    &::after {
+    min-height: 70vh;
+    &::before {
         content: "";
-        padding-bottom: 5rem;
+        padding-bottom: 10rem;
+    }
+}
+
+.learn {
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+    color: white;
+    font-family: "IBM Plex Sans";
+    font-weight: 300;
+    font-size: 1rem;
+    font-variant: small-caps;
+    background: linear-gradient(35deg, transparent, rgb(119, 41, 209));
+    background-color: rgb(128, 179, 255);
+    // border: 3px solid white;
+    border: none;
+    border-radius: 3rem;
+    padding: 1.1rem 3.8rem;
+    transition: 500ms;
+    box-shadow: 0 0 10px rgba(55,0,128,.5);
+    &:hover {
+        background-color: rgb(185, 185, 255);
     }
 }
 
 .logo {
-    font-family: "Red Rose", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
     font-size: 2.4rem;
 }
 
 .navigation {
     font-size: 1rem;
-    padding: .4rem;
+    padding: 0.4rem;
 }
 
 .information {
@@ -42,7 +64,7 @@
     align-items: center;
     justify-content: center;
     // position: absolute;
-    color: #dde5dd;
+    color: white;
     width: 35rem;
     height: 10rem;
     background-color: rgba(25, 25, 25, 0.9);

@@ -24,6 +24,7 @@ export default function Home() {
                         media.
                     </p>
                 </section>
+                <button className={styles.learn}>LEARN MORE</button>
             </div>
             <Lower />
             <div className={styles.test} />
